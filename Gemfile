@@ -3,8 +3,11 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use postgresql as the database for Active Record
+gem 'pg'
+
+# Use postgresql as the database for Active Record
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -47,5 +50,5 @@ end
 require 'v8'
 gem 'therubyracer'
 
-gem 'spree', github: 'liuhongchao/spree', branch: '2-1-stable'
-gem 'spree_auth_devise', github: 'liuhongchao/spree_auth_devise', branch: '2-1-stable'
+gem 'spree', github: 'liuhongchao/spree', branch: '1.0.0+2-2-stable'
+gem 'spree_auth_devise', github: 'liuhongchao/spree_auth_devise', branch: '1.0.0+2-2-stable'
