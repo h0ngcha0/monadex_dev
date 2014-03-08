@@ -51,3 +51,5 @@ gem 'therubyracer'
 
 gem 'spree', github: 'liuhongchao/spree', branch: 'change-vsn-2-2-stable'
 gem 'spree_auth_devise', github: 'liuhongchao/spree_auth_devise', branch: '2-2-stable'
+
+ruby "2.0.0"
