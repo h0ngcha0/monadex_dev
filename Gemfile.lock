@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/liuhongchao/spree.git
-  revision: 37561ce03bf27f8b4e2042f66770d4bfff268f03
+  revision: 96614714be79448c28be97c922654cd539eed2fa
   branch: change-vsn-2-2-stable
   specs:
     spree (2.2.0)
@@ -209,6 +209,11 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.3)
       sprockets-rails (~> 2.0.0)
+    rails_12factor (0.0.2)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.2)
+    rails_stdout_logging (0.0.3)
     railties (4.0.3)
       actionpack (= 4.0.3)
       activesupport (= 4.0.3)
@@ -280,6 +285,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 4.0.3)
+  rails_12factor
   sass-rails (~> 4.0.0)
   sdoc
   spree!
