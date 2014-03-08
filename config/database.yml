@@ -57,7 +57,5 @@ production:
   adapter: postgresql
   encoding: unicode
   database: monadex_dev_production
-  host: localhost
   pool: 5
-  username: monadex_dev
-  password: monadex_dev
+  password:
