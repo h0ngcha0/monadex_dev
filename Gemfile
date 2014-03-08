@@ -50,5 +50,5 @@ end
 require 'v8'
 gem 'therubyracer'
 
-gem 'spree', github: 'liuhongchao/spree', branch: '1.0.0+2-2-stable'
-gem 'spree_auth_devise', github: 'liuhongchao/spree_auth_devise', branch: '1.0.0+2-2-stable'
+gem 'spree', github: 'liuhongchao/spree', branch: 'change-vsn-2-2-stable'
+gem 'spree_auth_devise', github: 'liuhongchao/spree_auth_devise', branch: '2-2-stable'
