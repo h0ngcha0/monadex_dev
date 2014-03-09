@@ -8,8 +8,7 @@ Bundler.require(:default, Rails.env)
 
 module MonadexDev
   class Application < Rails::Application
-    
-    config.to_prepare do
+    Config.to_prepare do
       # Load application's model / class decorators
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
         Rails.configuration.cache_classes ? require(c) : load(c)
@@ -21,6 +20,7 @@ module MonadexDev
       end
     end
 
+    config.assets.initialize_on_precompile = false
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
