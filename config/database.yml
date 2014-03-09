@@ -17,9 +17,12 @@
 development:
   adapter: postgresql
   encoding: unicode
+#  database: monadex_dev_development_jldkajf
   database: monadex_dev_development
+  host: localhost
   pool: 5
-  password:
+  username: monadex_dev
+  password: monadex_dev
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
